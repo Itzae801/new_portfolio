@@ -23,7 +23,10 @@ ul{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    padding-top: 20px;;
 }
+
+
 header{
 background:#35424a;
 color: #ffffff;
@@ -133,12 +136,13 @@ header a:hover{
      
  }
  footer{
-     padding: 20px;
+     padding: auto;
      margin-top: 20px;
      color:#ffffff;
      background:#35424a;
      text-align: center;
-     position: fixed;
+     min-width: 100%;
+     min-height: 20px;
  }
  .fa {
     padding: 20px;
