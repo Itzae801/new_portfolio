@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
-    min-height: 100%;
+    height: 100%;
 }
 
 ul{
@@ -25,6 +25,9 @@ ul{
     margin: auto;
     overflow: hidden;
     padding-top: 20px;;
+}
+#showcase .container{
+    padding: auto;
 }
 
 
