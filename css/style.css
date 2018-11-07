@@ -26,9 +26,7 @@ ul{
     overflow: hidden;
     padding-top: 20px;;
 }
-#showcase .container{
-    padding: auto;
-}
+
 
 
 header{
@@ -78,13 +76,14 @@ header a:hover{
 /*showcase*/
  #showcase{
      min-height: 400px;  
-     background: url('../images/grid.jpg') no-repeat;
+     background: url('../images/grid.jpg');
      text-align: center;
      color: #ffffff;
+     padding:auto;
  }
  #showcase2{
     min-height: 200px;  
-    background: url('../images/grid.jpg') no-repeat;
+    background: url('../images/grid.jpg');
     text-align: center;
     color: #ffffff;
  }
@@ -123,8 +122,10 @@ header a:hover{
  }
  #boxes{
      
-     margin-top: 20px;
+     margin:0;
+     padding: 0;
      display: inline;
+     
     
  }
  #boxes .box{
